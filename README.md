@@ -2,7 +2,7 @@
 
 Shell Scripting Topics
 
-```text
+```
 1. Printing
 2. Comments
 3. Variables 
@@ -13,4 +13,10 @@ Shell Scripting Topics
 8. Exit Status
 9. Quotes
 10. Redirectors
+```
+```
+V - Variables
+F - Functions
+L - Loops
+C - Conditions
 ```
