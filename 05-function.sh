@@ -13,3 +13,15 @@ xyz() {
 xyz 123 456
 a=100
 echo value of b = $b
+
+abc() {
+  echo Hello
+  return 1
+  echo bye
+}
+
+abc
+echo Exit Status of abc function = $?
+
+# return command stops only the function and executes the below echo $? command
+# But, the exit command stops the whole script from executing

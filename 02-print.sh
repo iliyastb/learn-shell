@@ -1,5 +1,3 @@
-echo Hello World
-
 # Color Syntax
 # echo -e "\e[COLm MESSAGE \e[0m"
 # echo -e -> Enable colors from echo command
@@ -13,5 +11,10 @@ echo Hello World
 # If we enable the color for sure and we need to disable it, otherwise the color will continue on the screen.
 # We can use double or single quotes, however double quotes are preferred.
 
-echo -e "\e[31mHello World 2.0\e[0m"
-echo Hello World
+echo -e "\e[31mHello World with colors\e[0m"
+echo Hello World without colors
+
+# Some times we need to print multiple lines
+echo -e "line1\nline2\nline3"
+# \e for color, same \n for new line
+echo -e "\e[31mHello\e[0m\n\e[32mHi\e[0m"
