@@ -15,8 +15,5 @@ Shell Scripting Topics
 10. Redirectors
 ```
 ```
-V - Variables
-F - Functions
-L - Loops
-C - Conditions
+Important Topics - Variables, Functions, Loops, Conditions.
 ```
