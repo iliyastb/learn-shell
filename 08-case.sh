@@ -19,7 +19,7 @@ case $name in
     ;;
 esac
 
-## same above in if condition
+# same above in if condition
 if [ "${name}" == "DevOps" ]; then
   echo Welcome to DevOps Training
   echo Timings are 6AM

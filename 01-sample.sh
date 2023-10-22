@@ -1,4 +1,3 @@
-# Linux Commands
+# Linux basic Commands
 ls
 ls -l
-uname -i

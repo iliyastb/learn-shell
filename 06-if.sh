@@ -11,4 +11,4 @@ else
   echo string is not abc
 fi
 
-# It is always a good practice to quote the variable in expressions
+# It is always a good practice to quote the variable in expressions.
