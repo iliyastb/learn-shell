@@ -18,4 +18,4 @@ echo Hello World without colors
 echo -e "line1\nline2\nline3"
 
 # \e for color, same \n for new line
-echo -e "\e[31mHello\e[0m\n\e[32mHi\e[0m"
+echo -e "\e[31mHello\e[0m\n\e[34mHi\e[0m"
