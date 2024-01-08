@@ -1,7 +1,7 @@
 # Declare a function
 xyz() {
   echo Hello from Function
-  echo Firsst Argument - $1
+  echo First Argument - $1
   echo Second Argument - $2
   b=200
   echo value of a = $a
@@ -14,7 +14,7 @@ echo value of b = $b
 
 abc() {
   echo Hello
-  return 1
+  return 0
   echo bye
 }
 
