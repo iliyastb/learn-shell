@@ -5,10 +5,10 @@ if [ "${number}" -eq 5 ]; then # then can go in next line as well, also semi col
   echo number is 5
 fi
 
-if [ "${number}" -ge 5 ]; then
+if [ "${number}" -ge 10 ]; then
   echo number is "$1"
 else
-  echo number is 5
+  echo number is 10
 fi
 
 if [ "${string}" == abc ]; then
