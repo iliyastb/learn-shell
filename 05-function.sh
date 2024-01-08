@@ -14,7 +14,7 @@ echo value of b = $b
 
 abc() {
   echo Hello
-  return
+  return 1
   echo bye
 }
 
