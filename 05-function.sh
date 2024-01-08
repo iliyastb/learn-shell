@@ -1,4 +1,4 @@
-# Declare a function
+# Declaring a function with inputs and values
 xyz() {
   echo Hello from Function
   echo First Argument - $1
@@ -7,17 +7,19 @@ xyz() {
   echo value of a = $a
 }
 
-# Main program # Call a function
+# Calling a function with inputs and values
 xyz 123 456
-a=100
+a=150
 echo value of b = $b
 
+# function with return command
 abc() {
   echo Hello
   return 1
   echo bye
 }
 
+# calling the function
 abc
 echo Exit Status of abc function = $?
 
