@@ -13,8 +13,8 @@ a=100
 echo value of b = $b
 
 abc() {
-  return
   echo Hello
+  return 123
   echo bye
 }
 
