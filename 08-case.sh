@@ -7,7 +7,7 @@
 read -p 'Enter Course Name: ' name
 
 case $name in
-  DevOps)
+  devops)
     echo Welcome to DevOps Training
     echo Timings are 6AM
     ;;
